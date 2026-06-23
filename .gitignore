@@ -1,0 +1,30 @@
+# Données téléchargées / cache (volumineux, regénérables)
+data/meteo/
+data/reference/
+*.csv.gz
+*.parquet
+!tests/fixtures/*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Outils / IDE
+.vscode/
+.idea/
+.DS_Store
+.streamlit/secrets.toml
+
+# Sorties
+output/
+*.log

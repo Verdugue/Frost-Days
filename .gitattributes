@@ -1,0 +1,6 @@
+# Normalisation des fins de ligne (évite les soucis Windows/Unix)
+* text=auto eol=lf
+*.png binary
+*.parquet binary
+*.gz binary
+*.ipynb text eol=lf
